@@ -1,17 +1,18 @@
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function (sprite, otherSprite) {
-	
+    Spiller = 0
 })
+let Spiller = 0
 tiles.setCurrentTilemap(tilemap`level`)
-let Spiller = sprites.create(img`
+Spiller = sprites.create(img`
     . . . . . . f f f f . . . . . . 
     . . . . f f f 2 2 f f f . . . . 
-    . . . f f f 2 2 2 2 f f f . . . 
+    . . . f f f 2 3 3 2 f f f . . . 
     . . f f f e e e e e e f f f . . 
     . . f f e 2 2 2 2 2 2 e e f . . 
     . . f e 2 f f f f f f 2 e f . . 
     . . f f f f e e e e f f f f . . 
     . f f e f b f 4 4 f b f e f f . 
-    . f e e 4 1 f d d f 1 4 e e f . 
+    . f e e 4 1 3 d d 3 1 4 e e f . 
     . . f e e d d d d d d e e f . . 
     . . . f e e 4 4 4 4 e e f . . . 
     . . e 4 f 2 2 2 2 2 2 f 4 e . . 

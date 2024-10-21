@@ -2,7 +2,8 @@
     "name": "Hand In 2",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "Hand In 2": "github:alekssl/hand-in-2#cdd7f8e3d47e7cde8b0e8b20857ddfa6f9f1c9a4"
     },
     "files": [
         "main.blocks",
